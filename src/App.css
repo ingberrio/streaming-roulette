@@ -1,0 +1,151 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1{
+  text-align: center;
+}
+
+
+.button {
+  color: #000;
+  margin: 10px;
+  font-size: 24px; /* Increased font size */
+  padding: 10px 20px; /* Increased padding */
+  background-image: linear-gradient(-180deg,#f5f4f5,#f1edf0);
+  box-shadow: 0 5px 18px 0 rgba(248, 86, 191, 0.5);
+  border-radius: 6px;
+  text-align: center;
+}
+/* Estilos generales */
+
+body {
+  background-color: #000;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 20px;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+
+/* Estilos del encabezado */
+
+header {
+  background-color: #2d3642;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header img {
+  height: 40px;
+  width: auto;
+}
+
+#nav-logo{
+  margin:0 5px 10px 0;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar.navbar-1 .navbar-toggler-icon {
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+}
+
+
+.btn-yellow {
+    background-image: linear-gradient(-180deg,#e420d4,#ee84d9);
+    box-shadow: 0 5px 18px 0 rgba(246, 239, 243, 0.5);
+    border-radius: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1.8125rem
+}
+
+
+.btn-yellow:hover {
+    background-image: linear-gradient(-180deg,#e22fd3,#f18fdd)
+}
+
+.btn-yellow:active {
+    background-image: linear-gradient(0deg,#fff76d,#ffdf28);
+    box-shadow: none;
+}
+
+
+.btn-white+div {
+    margin-top: -1.25rem
+}
+
+.pay{
+  margin-top: 10px;
+  color: #000;
+  font-size: 12px;
+}
+
+
+/* Estilos de las secciones */
+
+section {
+  padding: 80px 0;
+}
+
+section h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+#about {
+  background-color: #F0EB8D;
+}
+/* Estilos del pie de página */
+
+footer {
+  background-color: #2d3642;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.icon-info{
+  margin: 10px 0 0 50px;
+}
+
+.btn-main{
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+}
